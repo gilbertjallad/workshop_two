@@ -1,0 +1,150 @@
+* {
+  margin: 0 auto;
+}
+.ad-container {
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 28px;
+  padding: 100px;
+  text-align: center;
+  width: calc(780px);
+  height: calc(0);
+  background: #000000;
+  position: absolute;
+  z-index: 200;
+}
+/*.rxWorld > .filmklubb-logo {
+  background-image: url();
+  box-shadow: 0px 1px 10px black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 35px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 500;
+}*/
+.rxWorld > .kino-seter {
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  bottom: -15px;
+  z-index: 600;
+  background-image: url(http://s17.postimg.org/3wpb1jb1r/kino_seter_1.png);
+  pointer-events: none;
+}
+.rxWorld {
+  width: 980px;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 400;
+}
+.rnOuter {
+  position: relative;
+  width: 980px;
+  height: 300px;
+}
+.rnUnit {
+  width: 40px;
+  height: 100vh;
+  background: repeating-linear-gradient(to left, #bd0f0f 4vw, #2f0404 8vw, #f04242 10vw);
+  background-size: 100% 100%;
+  display: inline-block;
+  transform-origin: 0 0%;
+  transform: rotate(1deg);
+  animation: rnUnit 2.5s ease infinite;
+}
+@keyframes rnUnit {
+  50% {
+    transform: rotate(-1deg);
+  }
+}
+.rnUnit:nth-child(1) {
+  animation-delay: -0.1s;
+}
+.rnUnit:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.rnUnit:nth-child(3) {
+  animation-delay: -0.3s;
+}
+.rnUnit:nth-child(4) {
+  animation-delay: -0.4s;
+}
+.rnUnit:nth-child(5) {
+  animation-delay: -0.5s;
+}
+.rnUnit:nth-child(6) {
+  animation-delay: -0.6s;
+}
+.rnUnit:nth-child(7) {
+  animation-delay: -0.7s;
+}
+.rnUnit:nth-child(8) {
+  animation-delay: -0.8s;
+}
+.rnUnit:nth-child(9) {
+  animation-delay: -0.9s;
+}
+.rnUnit:nth-child(10) {
+  animation-delay: -1s;
+}
+.aoTable {
+  display: table;
+  width: 980px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  z-index: 400;
+}
+.aoTableCell {
+  color: #840b0b;
+  display: table-cell;
+  vertical-align: middle;
+  transition: color 2.5s ease;
+}
+.rnInnerLeft {
+  /*background-color: blue;*/
+  width: 470px;
+  text-align: left;
+  float: left;
+  top: -10%;
+  left: 0%;
+  transform-style: preserve-3d;
+  transition: transform 2.5s ease-in-out;
+  transform-origin: 0px top;
+}
+.rnOuter:hover .rnInnerLeft {
+  /* transform-origin: -120% top;*/
+  transform-origin: 0px top;
+  /* Chrome, Safari, Opera */
+  -webkit-transform: scaleX(0);
+}
+.rnInnerRight {
+  /*background-color: blue;*/
+  width: 470px;
+  text-align: right;
+  position: absolute;
+  top: -10%;
+  right: 0%;
+  transform-style: preserve-3d;
+  transition: transform 2.5s ease-in-out;
+  transform-origin: 470px top;
+}
+.rnOuter:hover .rnInnerRight {
+  /*transform-origin: 120% top;*/
+  transform-origin: 470px top;
+  /* Chrome, Safari, Opera */
+  transform: scaleX(0);
+}
+.rnOuter:hover .aoTableCell {
+  color: white;
+}
+.welcome{
+  color: #ffffff;
+  font-family: "Savoye LET", serif;
+}
