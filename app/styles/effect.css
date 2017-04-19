@@ -27,7 +27,8 @@
 }*/
 .rxWorld > .kino-seter {
   background-repeat: no-repeat;
-  width: 980px;
+  background-size: cover;
+  width: 100%;
   height: 60px;
   position: absolute;
   left: 0px;
@@ -37,7 +38,7 @@
   pointer-events: none;
 }
 .rxWorld {
-  width: 980px;
+  width: 100%;
   height: 300px;
   overflow: hidden;
   position: absolute;
@@ -45,7 +46,7 @@
 }
 .rnOuter {
   position: relative;
-  width: 980px;
+  width: 100%;
   height: 300px;
 }
 .rnUnit {
