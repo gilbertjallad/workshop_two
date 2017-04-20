@@ -1,23 +1,28 @@
-/*body {
-  margin: 0;
+body {
+  /*margin: 0;
   display: flex;
   height: 100vh;
   overflow: hidden;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   background: black;
-}*/
-
+}
+.hands{
+  background-image: url(../images/hands.png);
+}
 .mommy {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   position: relative;
   perspective: 800px;
 }
 
 .daddy {
-  width: 500px;
-  height: 500px;
+  background-image: url(../images/Movies_Oscar_small.png);
+   background-repeat: no-repeat;
+   background-position: center;
+  width: 450px;
+  height: 450px;
   transform-style: preserve-3d;
   animation: rotate 25s infinite linear;
 }
