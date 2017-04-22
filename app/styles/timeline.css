@@ -22,7 +22,7 @@ p {
   position: relative;
   margin: 0 auto;
   width: 6px;
-  height: 800px;
+  height: 600px;
   background-color: #e9edf0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -62,22 +62,26 @@ p {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 #historic_event_1 {
-  top: 100px;
+  /*top: 100px;*/
+  top: 50px;
   left: 50%;
   margin-left: -12px;
 }
 #historic_event_2 {
-  top: 300px;
+  /*top: 300px;*/
+  top: 200px;
   left: 50%;
   margin-left: -273px;
 }
 #historic_event_3 {
-  top: 500px;
+  /*top: 500px;*/
+  top: 350px;
   left: 50%;
   margin-left: -12px;
 }
 #historic_event_4 {
-  top: 700px;
+  /*top: 700px;*/
+  top: 500px;
   left: 50%;
   margin-left: -273px;
 }
@@ -140,7 +144,8 @@ p {
 #history_clock {
   display: block;
   position: absolute;
-  top: 100px;
+  top: 50px;
+  /*top: 100px;*/
   left: 50%;
   margin-left: -17px;
   width: 34px;
@@ -160,13 +165,16 @@ p {
   -o-transition: top 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 #history_clock.animate1 {
-  top: 300px;
+  /*top: 300px;*/
+  top: 200px;
 }
 #history_clock.animate2 {
-  top: 500px;
+  /*top: 500px;*/
+  top: 350px;
 }
 #history_clock.animate3 {
-  top: 697px;
+  /*top: 697px;*/
+  top: 500px;
 }
 #clockface {
   display: block;

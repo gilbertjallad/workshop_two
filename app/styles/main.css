@@ -53,6 +53,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .brand-logo{
+  font-size: 200px;
   font-family: "Savoye LET", serif;
   margin-left: 40px;
 }
@@ -757,3 +758,4 @@ img:hover{
     transform: rotateY(360deg);
   }
 }
+

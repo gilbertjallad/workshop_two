@@ -9,7 +9,7 @@ $(document).ready(function() {
    	});
    	
    	var hoverOrClick = function(){
-   		$("#history_clock").removeClass('animate1 animate2 animate3');
+   		$('#history_clock').removeClass('animate1 animate2 animate3');
    		$('#historic_event_1').addClass('current');
    		$('#historic_event_2, #historic_event_3, #historic_event_4').removeClass('current');
    	}
@@ -17,7 +17,7 @@ $(document).ready(function() {
    	
    	var hoverOrClick = function(){
     	$('#history_clock').addClass('animate1');
-    	$("#history_clock").removeClass('animate2 animate3');
+    	$('#history_clock').removeClass('animate2 animate3');
     	$('#historic_event_2').addClass('current');
     	$('#historic_event_1, #historic_event_3, #historic_event_4').removeClass('current');
    	}
@@ -25,7 +25,7 @@ $(document).ready(function() {
    	
    	var hoverOrClick = function(){
    		$('#history_clock').addClass('animate2');
-   		$("#history_clock").removeClass('animate1 animate3');
+   		$('#history_clock').removeClass('animate1 animate3');
    		$('#historic_event_3').addClass('current');
    		$('#historic_event_1, #historic_event_2, #historic_event_4').removeClass('current');
    	}
@@ -33,7 +33,7 @@ $(document).ready(function() {
    	
    	var hoverOrClick = function(){
    		$('#history_clock').addClass('animate3');
-   		$("#history_clock").removeClass('animate1 animate2');
+   		$('#history_clock').removeClass('animate1 animate2');
    		$('#historic_event_4').addClass('current');
    		$('#historic_event_1, #historic_event_2, #historic_event_3').removeClass('current');
    	}
