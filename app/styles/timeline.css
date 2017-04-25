@@ -5,11 +5,10 @@
   -webkit-font-smoothing: antialiased;
 }
 p {
-  color: #596c7c;
-  font-family: helvetica, arial, san-serif;
-  font-size: 0.875em;
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
   font-weight: normal;
-  text-shadow: 0 1px #ffffff;
 }
 #history {
   display: block;
